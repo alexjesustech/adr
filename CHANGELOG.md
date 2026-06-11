@@ -6,6 +6,12 @@ adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Adicionado
+
+- `llms.txt` (padrão [llmstxt.org](https://llmstxt.org/)) com o mapa navegável do
+  repositório para consumo por LLMs, e `AGENTS.md` com a orientação de trabalho
+  para agentes de IA que contribuam aqui (+ ponteiro `CLAUDE.md`).
+
 ## [0.1.0] - 2026-06-11
 
 ### Adicionado

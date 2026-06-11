@@ -1,0 +1,45 @@
+# adr
+
+> Sistema documental, em português (BR), para projetos de software assistidos por
+> IA: fundamentos com fontes verificáveis e templates reproduzíveis de ADR,
+> changelog (Keep a Changelog + SemVer), Conventional Commits, Definition of Done
+> documental, protocolo de estado entre agentes, PRD/BRD, diretivas operacionais
+> (GUARD) e fluxo de branch.
+
+Cada ensaio tem três partes — fundamento (literatura), adaptação (o que a prática
+ajusta, em especial para agentes de IA) e fontes. O estado de sessão entre agentes
+(`docs/ESTADO.md`) é local-only por definição e nunca é versionado neste repositório.
+
+## Fundamentos
+
+- [ADR — registro de decisão de arquitetura](docs/fundamentos/01-adr.md): formato
+  Nygard; fronteira entre decisão durável e plano efêmero
+- [Changelog e versionamento semântico](docs/fundamentos/02-changelog-semver.md):
+  Keep a Changelog, `[Unreleased]` como ponto de integração com a DoD
+- [Conventional Commits](docs/fundamentos/03-conventional-commits.md): gramática de
+  mensagens e trailers de autoria assistida por IA
+- [Definition of Done documental](docs/fundamentos/04-dod-documental.md):
+  documentação desatualizada = tarefa incompleta
+- [Protocolo de estado entre agentes](docs/fundamentos/05-protocolo-de-estado.md):
+  se não virar arquivo versionado, morre no chat; regra de rotação
+- [PRD com BRD condicional](docs/fundamentos/06-prd-brd.md): objetivo de negócio
+  embutido, quando houver dimensão de negócio
+- [Diretivas GUARD](docs/fundamentos/07-diretivas-guard.md): do postmortem blameless
+  à regra permanente versionada
+- [Fluxo de branch](docs/fundamentos/08-fluxo-de-branch.md): GitHub Flow × Git Flow
+  × trunk-based, com enforcement em camadas
+
+## Templates
+
+- [ADR (template + exemplo fictício)](templates/adr/0000-template.md)
+- [ESTADO.md — estado entre agentes, com regra de rotação](templates/ESTADO.md)
+- [CHANGELOG.md](templates/CHANGELOG.md)
+- [PRD.md](templates/PRD.md)
+- [AGENTS.md — orientação multi-agente](templates/AGENTS.md)
+- [Plano efêmero de execução](templates/plans/AAAA-MM-DD-slug.md)
+
+## Referência
+
+- [Bibliografia consolidada](docs/BIBLIOGRAFIA.md): 16 entradas com URL canônica e
+  data de acesso
+- [Como contribuir](CONTRIBUTING.md)
