@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Hook pre-commit versionado (opcional): rode `git config core.hooksPath .githooks`
+# para ativá-lo. Roda o gitleaks se disponível (fail-open: avisa se ausente).
+set -u
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --redact -v || exit 1
+else
+  echo "aviso: gitleaks não encontrado — varredura de segredos pulada." >&2
+fi
+exit 0

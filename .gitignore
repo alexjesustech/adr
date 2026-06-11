@@ -1,0 +1,13 @@
+# Estado de sessão entre agentes — local-only, nunca publicado
+docs/ESTADO.md
+docs/ESTADO-arquivo.md
+
+# Artefatos locais de ferramentas de IA — nunca versionar
+.claude/settings.local.json
+.claude/.credentials.json
+.claude/sessions/
+.claude/history.jsonl
+.claude/projects/
+.claude/cache/
+.claude/backups/
+.claude/plans/
