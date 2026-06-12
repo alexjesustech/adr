@@ -20,7 +20,7 @@ executável é o CI estrutural.
   por verificação manual do mantenedor antes do merge.
 - **Commits:** Conventional Commits; trailers de autoria assistida quando um agente
   gera o commit (ver o próprio ensaio 03).
-- **`docs/ESTADO.md` é local-only** (gitignored): nunca versionar estado de sessão
+- **`docs/HANDOFF.md` é local-only** (gitignored): nunca versionar estado de sessão
   neste repositório.
 
 ## O que NÃO fazer

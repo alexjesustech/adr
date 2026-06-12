@@ -8,7 +8,7 @@
 >
 > **Regra de rotação:** se a atualização de fim de sessão passar de ~200 linhas, a
 > poda acontece na MESMA sessão — o excedente roda **verbatim** (nunca resumido)
-> para `docs/ESTADO-arquivo.md`, em blocos `## Rotação AAAA-MM-DD` (mais recente no
+> para `docs/HANDOFF-arquivo.md`, em blocos `## Rotação AAAA-MM-DD` (mais recente no
 > topo). Por seção: Snapshot = só estado vigente (sessão concluída vira 1 entrada
 > no Histórico; a narrativa longa vai para o arquivo); Pendências fechadas `- [x]`
 > saem na rotação seguinte (abertas NUNCA rodam); Decisões = manter as últimas ~10;
@@ -34,5 +34,5 @@
 - <armadilha> — ver `<arquivo>:<linha>`
 
 ## Histórico de sessões (append-only — NUNCA reescrever)
-<!-- log cronológico datado; rotação para docs/ESTADO-arquivo.md conforme o cabeçalho -->
+<!-- log cronológico datado; rotação para docs/HANDOFF-arquivo.md conforme o cabeçalho -->
 - **AAAA-MM-DD / <ferramenta>:** <o que a sessão produziu, em 2–5 linhas>

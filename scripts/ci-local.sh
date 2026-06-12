@@ -26,7 +26,7 @@ done
 
 # 3. templates obrigatórios
 for f in templates/adr/0000-template.md templates/adr/0001-exemplo.md \
-         templates/ESTADO.md templates/CHANGELOG.md templates/PRD.md \
+         templates/HANDOFF.md templates/CHANGELOG.md templates/PRD.md \
          templates/AGENTS.md templates/plans/AAAA-MM-DD-slug.md; do
   [ -f "$f" ] && ok "$f" || fail "template ausente: $f"
 done
@@ -35,8 +35,8 @@ done
 grep -q '^## \[Unreleased\]' CHANGELOG.md || fail "CHANGELOG.md sem seção [Unreleased]"
 
 # 5. ESTADO.md de sessão nunca rastreado (é local-only por definição)
-if git ls-files --error-unmatch docs/ESTADO.md >/dev/null 2>&1; then
-  fail "docs/ESTADO.md rastreado — deve ser local-only (.gitignore)"
+if git ls-files --error-unmatch docs/HANDOFF.md >/dev/null 2>&1; then
+  fail "docs/HANDOFF.md rastreado — deve ser local-only (.gitignore)"
 fi
 
 # 6. links markdown internos resolvem (apenas alvos relativos)

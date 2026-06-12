@@ -1,6 +1,6 @@
 # Estado de sessão entre agentes — local-only, nunca publicado
-docs/ESTADO.md
-docs/ESTADO-arquivo.md
+docs/HANDOFF.md
+docs/HANDOFF-arquivo.md
 
 # Artefatos locais de ferramentas de IA — nunca versionar
 .claude/settings.local.json

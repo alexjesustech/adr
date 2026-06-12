@@ -13,9 +13,9 @@
 ## Regras de trabalho
 
 - **Início de sessão:** `git fetch --prune` + `git status -sb` (comparar local ×
-  remoto ANTES de editar); ler `docs/ESTADO.md`.
+  remoto ANTES de editar); ler `docs/HANDOFF.md`.
 - **Fim de sessão (Definition of Done documental):** atualizar
-  `CHANGELOG.md [Unreleased]` + `docs/ESTADO.md`; `README.md`/`docs/PRD.md` se
+  `CHANGELOG.md [Unreleased]` + `docs/HANDOFF.md`; `README.md`/`docs/PRD.md` se
   setup/escopo mudou; ADR novo se houve decisão durável. **Documentação
   desatualizada = tarefa incompleta.**
 - **Fluxo de branch:** `main` protegida; feature branches efêmeras
