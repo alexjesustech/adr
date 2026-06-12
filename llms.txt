@@ -8,7 +8,7 @@
 
 Cada ensaio tem três partes — fundamento (literatura), adaptação (o que a prática
 ajusta, em especial para agentes de IA) e fontes. O estado de sessão entre agentes
-(`docs/ESTADO.md`) é local-only por definição e nunca é versionado neste repositório.
+(`docs/HANDOFF.md`) é local-only por definição e nunca é versionado neste repositório.
 
 ## Fundamentos
 
@@ -32,7 +32,7 @@ ajusta, em especial para agentes de IA) e fontes. O estado de sessão entre agen
 ## Templates
 
 - [ADR (template + exemplo fictício)](templates/adr/0000-template.md)
-- [ESTADO.md — estado entre agentes, com regra de rotação](templates/ESTADO.md)
+- [HANDOFF.md — estado entre agentes, com regra de rotação](templates/HANDOFF.md)
 - [CHANGELOG.md](templates/CHANGELOG.md)
 - [PRD.md](templates/PRD.md)
 - [AGENTS.md — orientação multi-agente](templates/AGENTS.md)

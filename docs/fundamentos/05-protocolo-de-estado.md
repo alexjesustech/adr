@@ -1,6 +1,6 @@
 # 05 — Protocolo de estado entre agentes
 
-> Template correspondente: [`templates/ESTADO.md`](../../templates/ESTADO.md)
+> Template correspondente: [`templates/HANDOFF.md`](../../templates/HANDOFF.md)
 
 ## Fundamento
 
@@ -25,9 +25,9 @@ O protocolo de estado materializa uma regra de ouro:
 > **Se não virar arquivo Markdown versionado, morre no chat.**
 > O handoff entre agentes (e entre agente e humano) é o commit.
 
-Mecânica — um arquivo `docs/ESTADO.md` por repositório:
+Mecânica — um arquivo `docs/HANDOFF.md` por repositório:
 
-1. **Primeiro passo de qualquer sessão:** ler o `ESTADO.md`. **Último passo:**
+1. **Primeiro passo de qualquer sessão:** ler o `HANDOFF.md`. **Último passo:**
    atualizá-lo (data, ferramenta, onde a lógica parou, contextos implícitos).
    Atualizar **incrementalmente** a cada decisão ou pendência fechada — sessões
    terminam abruptamente, e o handoff não pode depender do encerramento limpo.
@@ -38,7 +38,7 @@ Mecânica — um arquivo `docs/ESTADO.md` por repositório:
    *Histórico de sessões* (log datado, append-only).
 3. **Regra de rotação:** o arquivo se mantém enxuto (< ~200 linhas). O excedente
    roda **verbatim** — nunca resumido, para manter auditável — para um
-   `docs/ESTADO-arquivo.md` append-only, em blocos datados. Sem rotação, o arquivo
+   `docs/HANDOFF-arquivo.md` append-only, em blocos datados. Sem rotação, o arquivo
    incha até nenhum agente o ler inteiro; com resumo em vez de rotação, perde-se o
    registro fiel.
 4. **Uma sessão por working tree.** Duas sessões de agente no mesmo checkout
@@ -51,11 +51,11 @@ Mecânica — um arquivo `docs/ESTADO.md` por repositório:
    ADR ou arquivo em `docs/plans/` **antes** de executar (ensaio
    [01](./01-adr.md)) — não fica só na interface da ferramenta.
 6. **Enforcement:** a prosa orienta, mas a trava real é determinística — um hook de
-   pre-push que bloqueia mudança de conteúdo sem atualização do `ESTADO.md` (com
+   pre-push que bloqueia mudança de conteúdo sem atualização do `HANDOFF.md` (com
    escape declarado), porque instrução em arquivo de orientação é contexto, não
    configuração imposta.
 
-Em repositórios públicos, o `ESTADO.md` é **local-only** (gitignored): estado de
+Em repositórios públicos, o `HANDOFF.md` é **local-only** (gitignored): estado de
 sessão expõe bastidor e nomes de trabalho que não pertencem ao público.
 
 ## Fontes

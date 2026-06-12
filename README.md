@@ -14,7 +14,7 @@ Record) — mas o escopo é o conjunto:
 | Changelog + versionamento semântico | [`docs/fundamentos/02-changelog-semver.md`](./docs/fundamentos/02-changelog-semver.md) | [`templates/CHANGELOG.md`](./templates/CHANGELOG.md) |
 | Commits convencionais (e autoria assistida) | [`docs/fundamentos/03-conventional-commits.md`](./docs/fundamentos/03-conventional-commits.md) | — |
 | Definition of Done documental | [`docs/fundamentos/04-dod-documental.md`](./docs/fundamentos/04-dod-documental.md) | — |
-| Protocolo de estado entre agentes | [`docs/fundamentos/05-protocolo-de-estado.md`](./docs/fundamentos/05-protocolo-de-estado.md) | [`templates/ESTADO.md`](./templates/ESTADO.md) |
+| Protocolo de estado entre agentes | [`docs/fundamentos/05-protocolo-de-estado.md`](./docs/fundamentos/05-protocolo-de-estado.md) | [`templates/HANDOFF.md`](./templates/HANDOFF.md) |
 | PRD com objetivo de negócio embutido (BRD) | [`docs/fundamentos/06-prd-brd.md`](./docs/fundamentos/06-prd-brd.md) | [`templates/PRD.md`](./templates/PRD.md) |
 | Diretivas operacionais nascidas de postmortem | [`docs/fundamentos/07-diretivas-guard.md`](./docs/fundamentos/07-diretivas-guard.md) | — |
 | Fluxo de branch | [`docs/fundamentos/08-fluxo-de-branch.md`](./docs/fundamentos/08-fluxo-de-branch.md) | — |
@@ -36,7 +36,7 @@ IA) e **fontes** (citações verificáveis). A bibliografia consolidada está em
    [`templates/adr/0001-exemplo.md`](./templates/adr/0001-exemplo.md)).
 3. Se agentes de IA trabalham no projeto: copie
    [`templates/AGENTS.md`](./templates/AGENTS.md) para a raiz e
-   [`templates/ESTADO.md`](./templates/ESTADO.md) para `docs/`, e adote a regra de
+   [`templates/HANDOFF.md`](./templates/HANDOFF.md) para `docs/`, e adote a regra de
    ouro do ensaio 05 — *se não virar arquivo versionado, morre no chat*.
 4. Adote a Definition of Done documental (ensaio 04): tarefa só está pronta quando
    a documentação afetada foi atualizada.

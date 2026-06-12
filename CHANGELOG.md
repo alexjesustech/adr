@@ -6,6 +6,12 @@ adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Alterado
+
+- Template de estado renomeado: `templates/ESTADO.md` → `templates/HANDOFF.md` (e as
+  referências em README, AGENTS.md, llms.txt e fundamentos) — alinhado à convenção de
+  continuidade `docs/HANDOFF.md` adotada pelos projetos que consomem estes templates.
+
 ### Adicionado
 
 - `llms.txt` (padrão [llmstxt.org](https://llmstxt.org/)) com o mapa navegável do
