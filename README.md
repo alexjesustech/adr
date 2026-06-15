@@ -26,6 +26,11 @@ Cada ensaio tem três partes: **fundamento** (o que a literatura estabelece),
 IA) e **fontes** (citações verificáveis). A bibliografia consolidada está em
 [`docs/BIBLIOGRAFIA.md`](./docs/BIBLIOGRAFIA.md).
 
+## Status
+
+`0.1.0` — em evolução. O sistema (templates + ensaios) é usável; a estrutura ainda pode mudar
+([SemVer](https://semver.org/lang/pt-BR/) `0.y.z`).
+
 ## Adote em 15 minutos
 
 1. Copie [`templates/CHANGELOG.md`](./templates/CHANGELOG.md) para a raiz do seu
